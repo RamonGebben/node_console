@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+@import url('./var.less');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: @themeBackground;
+	font-family: 'Ubuntu Mono';
+}
+
+
+.input_wrapper {
+	position: fixed;
+	right: 0; bottom: 0; left: 5px;
+
+	.pwd {
+		color: #fff;
+		span {
+			padding: 0;
+			margin: 0;
+			float: left;
+
+			&.user { color: #F30C67; }
+			&.at { color: #444; }
+			&.host { color: cyan; }
+			&.path { color: green; }
+		}
+	}
+
+	.seperator:before {
+		content: "\00BB";
+		position: absolute;
+		top: 23px;
+		color: yellow;
+	}
+
+	#prompt {
+		width: 100%;
+		background-color: transparent;
+		border: none;
+		outline: none;
+		color: @themeInputColor;
+		font-size: @themeInputSize;
+		font-family: 'Ubuntu Mono';
+		padding: 7px 15px;
+	}
+
+}
+
+
+.cf {
+	clear: both;
+}

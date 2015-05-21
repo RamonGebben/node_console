@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  font-family: 'Ubuntu Mono';
+}
+.input_wrapper {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 5px;
+}
+.input_wrapper .pwd {
+  color: #fff;
+}
+.input_wrapper .pwd span {
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.input_wrapper .pwd span.user {
+  color: #F30C67;
+}
+.input_wrapper .pwd span.at {
+  color: #444;
+}
+.input_wrapper .pwd span.host {
+  color: cyan;
+}
+.input_wrapper .pwd span.path {
+  color: green;
+}
+.input_wrapper .seperator:before {
+  content: "\00BB";
+  position: absolute;
+  top: 23px;
+  color: yellow;
+}
+.input_wrapper #prompt {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: lime;
+  font-size: 17px;
+  font-family: 'Ubuntu Mono';
+  padding: 7px 15px;
+}
+.cf {
+  clear: both;
+}

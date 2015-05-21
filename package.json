@@ -1,0 +1,19 @@
+{
+  "name": "node_console",
+  "version": "1.0.0",
+  "description": "An interactive console for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramon Gebben <ramon@ra-ge.net> (http://ra-ge.net)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-less": "^3.0.3",
+    "gulp-mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
