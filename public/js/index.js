@@ -1,8 +1,6 @@
 
 var $ = require('jquery');
 
-
-
 $(document).ready(function(){
 	$('#prompt').keydown(function( e ){
 		if( e.keyCode === 13 ){
